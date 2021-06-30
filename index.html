@@ -54,138 +54,151 @@
                 <h4 id="Clasicpizza">Classic Pizzas</h4>
                 <hr>
                 <div class="col-4">
-                  <input type="radio" id="Chicken$BeefPepperoni" name="classicpizza" value=""required>
-                  <label for="Chicken$BeefPepperoni">
-                    <div class="p-3 ">Chicken $ Beef Pepperoni
+                    <input type="radio" id="Chicken$BeefPepperoni" name="classicpizza" value="" required>
+                    <label for="Chicken$BeefPepperoni">
+                        <div class="p-3 ">Chicken $ Beef Pepperoni
+                        </div>
+                </div>
+                <hr>
+                </label>
+                <br>
+                <div class="col-4">
+                    <input type="radio" id="CheeseBurger" name="classicpizza" value="" required>
+                    <label for="CheeseBurger">
+                        <div class="p-3">Cheese Burger</div>
+                </div>
+                <hr>
+                </label>
+                <br>
+                <div class="col-4">
+                    <input type="radio" id="ChickenHawaiian" name="classicpizza" value="" required>
+                    <label for="ChickenHawaiian">
+                        <div class="p-3 ">Chicken Hawaiian</div>
+                </div>
+                <hr>
+                </label>
+                <br>
+                <div class="col-4">
+                    <input type="radio" id="MeatDeluxe" name="classicpizza" value="" required>
+                    <label for="MeatDeluxe">
+                        <div class="p-3">Meat Deluxe</div>
+                </div>
+                <hr>
+                </label>
+                <br>
+                <div class="col-4">
+                    <h4 id="Deluxepizza">Deluxe Pizzas</h4>
+                    <hr>
+                    <div class="col-4">
+                        <input type="radio" id="Boerewors" name="classicpizza" value="" required>
+                        <label for="Boerewors">
+                            <div class="p-3 ">Boerewors</div>
                     </div>
-                </div>
-                <hr>
-                </label>
-                <br>
-                <div class="col-4">
-                  <input type="radio" id="CheeseBurger" name="classicpizza" value=""required>
-                  <label for="CheeseBurger">
-                    <div class="p-3">Cheese Burger</div>
-                </div>
-                <hr>
-                </label>
-                <br>
-                <div class="col-4">
-                  <input type="radio" id="ChickenHawaiian" name="classicpizza" value=""required>
-                  <label for="ChickenHawaiian">
-                    <div class="p-3 ">Chicken Hawaiian</div>
-                </div>
-                <hr>
-                </label>
-                <br>
-                <div class="col-4">
-                  <input type="radio" id="MeatDeluxe" name="classicpizza" value=""required>
-                  <label for="MeatDeluxe">
-                    <div class="p-3">Meat Deluxe</div>
-                </div>
-                <hr>
-                </label>
-                <br>
-                <div class="col-4">
-                  <h4 id="Deluxepizza">Deluxe Pizzas</h4>
-                  <hr>
-                  <div class="col-4">
-                    <input type="radio" id="Boerewors" name="classicpizza" value=""required>
-                    <label for="Boerewors">
-                      <div class="p-3 ">Boerewors</div>
-                  </div>
-                  <hr>
-                  </label>
-                  <br>
-                  <div class="col-4">
-                    <input type="radio" id="Hawaiian" name="classicpizza" value=""required>
-                    <label for="Hawaiian">
-                      <div class="p-3 ">Hawaiian</div>
-                  </div>
-                  <hr>
-                  </label>
-                  <br>
-                  <div class="col-4">
-                    <input type="radio" id="ChickenTikka" name="classicpizza" value=""required>
-                    <label for="ChickenTikka">
-                      <div class="p-3 ">Chicken Tikka</div>
-                  </div>
-                  <hr>
-                  </label>
-                  <br>
-                  <div class="col-4">
-                    <input type="radio" id="Regina" name="classicpizza" value=""required>
-                    <label for="Regina">
-                      <div class="p-3 ">Regina</div>
-                  </div>
-                  <hr>
-                  </label>
-                  <br>
+                    <hr>
+                    </label>
+                    <br>
+                    <div class="col-4">
+                        <input type="radio" id="Hawaiian" name="classicpizza" value="" required>
+                        <label for="Hawaiian">
+                            <div class="p-3 ">Hawaiian</div>
+                    </div>
+                    <hr>
+                    </label>
+                    <br>
+                    <div class="col-4">
+                        <input type="radio" id="ChickenTikka" name="classicpizza" value="" required>
+                        <label for="ChickenTikka">
+                            <div class="p-3 ">Chicken Tikka</div>
+                    </div>
+                    <hr>
+                    </label>
+                    <br>
+                    <div class="col-4">
+                        <input type="radio" id="Regina" name="classicpizza" value="" required>
+                        <label for="Regina">
+                            <div class="p-3 ">Regina</div>
+                    </div>
+                    <hr>
+                    </label>
+                    <br>
                 </div>
             </div>
             <div class="col-2" id="size">
-              <h1>Size</h1>
-              <br>
-              <form onsubmit="event.preventDefault();orderPizza()">
-                <input type="radio" id="small" name="size" value="" required>
-                <label for="small">Small=KSH. 400</label>
+                <h1>Size</h1>
                 <br>
-                <input type="radio" id="medium" name="size" value="" required>
-                <label for="medium">Medium=KSH. 600</label>
-                <br>
-                <input type="radio" id="large" name="size" value="" required>
-                <label for="large">Large=KSH. 800</label>
-                <br>
-                <button onclick="orderPizza()">Pick size</button> <br> 
-              </form>
-              <h1>Choose crust:</h1>
-              <form onsubmit="event.preventDefault();orderPizza()">
-                <input type="radio" id="crispy" name="crust" value="" required>
-                <label for="crispy">Crispy=KSH 100</label>
-                <br>
-                <input type="radio" id="stuffed" name="crust" value="" required>
-                <label for="stuffed">Stuffed=KSH 150</label>
-                <br>
-                <input type="radio" id="gluttenfree" name="crust" value="" required>
-                <label for="gluttenfree">Glatten-free=KSH 120</label>
-                <button onclick="orderPizza()">Submit</button> <br> 
-              </form>
+                <form onsubmit="event.preventDefault();orderPizza()">
+                    <input type="radio" id="small" name="size" value="" required>
+                    <label for="small">Small=KSH. 400</label>
+                    <br>
+                    <input type="radio" id="medium" name="size" value="" required>
+                    <label for="medium">Medium=KSH. 600</label>
+                    <br>
+                    <input type="radio" id="large" name="size" value="" required>
+                    <label for="large">Large=KSH. 800</label>
+                    <br>
+                    <button onclick="orderPizza()">Pick size</button> <br>
+                </form>
+                <h1>Choose crust:</h1>
+                <form onsubmit="event.preventDefault();orderPizza()">
+                    <input type="radio" id="crispy" name="crust" value="" required>
+                    <label for="crispy">Crispy=KSH 100</label>
+                    <br>
+                    <input type="radio" id="stuffed" name="crust" value="" required>
+                    <label for="stuffed">Stuffed=KSH 150</label>
+                    <br>
+                    <input type="radio" id="gluttenfree" name="crust" value="" required>
+                    <label for="gluttenfree">Glatten-free=KSH 120</label>
+                    <button onclick="orderPizza()">Submit</button> <br>
+                </form>
             </div>
             <div class="col-3">
                 <form id="toppings">
-                  <label for="toppings">
-                    <h1>Choose a topping:</h1>
-                  </label>
-                  <br>
-                  <input type="checkbox" id="Pepperoni" name="toppings" value="" required>
-                  <label for="Pepperoni"> Pepperoni<br>KSH. 50 for small <br>KSH. 80 for medium <br>KSH. 100 for large
-                  </label><br><hr>
-                  <input type="checkbox" id="Mushroom" name="toppings" value="">
-                  <label for="Mushroom"> Mushroom<br>KSH. 50 for small <br>KSH. 80 for medium <br>KSH. 100 for large</label><br><hr>
-                  <input type="checkbox" id="Extracheese" name="toppings" value="">
-                  <label for="Extracheese"> Extra cheese<br>KSH. 50 for small <br>KSH. 80 for medium <br>KSH. 100 for large</label><br><hr>
-                  <input type="checkbox" id="sausage" name="toppings" value="">
-                  <label for="Sausage">Sausage<br>KSH. 50 for small <br>KSH. 80 for medium <br>KSH. 100 for large</label><br><hr>
-                  <input type="checkbox" id="onion" name="toppings" value="">
-                  <label for="onion"> Onion<br>KSH. 50 for small <br>KSH. 80 for medium <br>KSH. 100 for large</label><br><hr>
-                  <button onclick="orderPizza()">Submit</button> <br> 
+                    <label for="toppings">
+                        <h1>Choose a topping:</h1>
+                    </label>
+                    <br>
+                    <input type="checkbox" id="Pepperoni" name="toppings" value="" required>
+                    <label for="Pepperoni"> Pepperoni<br>KSH. 50 for small <br>KSH. 80 for medium <br>KSH. 100 for large
+                    </label><br>
+                    <hr>
+                    <input type="checkbox" id="Mushroom" name="toppings" value="">
+                    <label for="Mushroom"> Mushroom<br>KSH. 50 for small <br>KSH. 80 for medium <br>KSH. 100 for
+                        large</label><br>
+                    <hr>
+                    <input type="checkbox" id="Extracheese" name="toppings" value="">
+                    <label for="Extracheese"> Extra cheese<br>KSH. 50 for small <br>KSH. 80 for medium <br>KSH. 100 for
+                        large</label><br>
+                    <hr>
+                    <input type="checkbox" id="sausage" name="toppings" value="">
+                    <label for="Sausage">Sausage<br>KSH. 50 for small <br>KSH. 80 for medium <br>KSH. 100 for
+                        large</label><br>
+                    <hr>
+                    <input type="checkbox" id="onion" name="toppings" value="">
+                    <label for="onion"> Onion<br>KSH. 50 for small <br>KSH. 80 for medium <br>KSH. 100 for
+                        large</label><br>
+                    <hr>
+                    <button onclick="orderPizza()">Submit</button> <br>
                 </form>
-              </div>
-              <div id="contacts">
+            </div>
+            <div id="contacts">
                 <footer>
-                  <h1>CONTACTS</h1>
-                  <h6>For more Information you can reach us through:</h6>
-                  <div class="d-flex justify-content-center">
-                    <div class="p-2 bd-highlight">
-                      <img src="/twitter.png">
+                    <h1>CONTACTS</h1>
+                    <h6>For more Information you can reach us through:</h6>
+                    <div class="d-flex justify-content-center">
+                        <div class="p-2 bd-highlight">
+                            <img src="/twitter.png">
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <img src="/facebook.png">
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <img src="/g_plus.png">
+                        </div>
                     </div>
-                    <div class="p-2 bd-highlight">
-                      <img src="/facebook.png">
-                    </div>
-                    <div class="p-2 bd-highlight">
-                      <img src="/g_plus.png">
-                    </div>
-                  </div>
-                  <p>Piscy's Pizza</p>
-                  <p>2021</p>
-              </div>
+                    <p>Piscy's Pizza</p>
+                    <p>2021</p>
+            </div>
+            <script type="text/javascript" src="/index.js"></script>
+</body>
+
+</html>
