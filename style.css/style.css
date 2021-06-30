@@ -21,3 +21,12 @@
     font-size: 60px;
     font-weight:900px;
 }
+#menubar{
+    background-color: orange;
+}
+#menu{
+    margin-top: 40px;
+}
+#size{
+    background-color: orange;
+}
