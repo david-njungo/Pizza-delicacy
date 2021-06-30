@@ -122,3 +122,19 @@
                   </label>
                   <br>
                 </div>
+            </div>
+            <div class="col-2" id="size">
+              <h1>Size</h1>
+              <br>
+              <form onsubmit="event.preventDefault();orderPizza()">
+                <input type="radio" id="small" name="size" value="" required>
+                <label for="small">Small=KSH. 400</label>
+                <br>
+                <input type="radio" id="medium" name="size" value="" required>
+                <label for="medium">Medium=KSH. 600</label>
+                <br>
+                <input type="radio" id="large" name="size" value="" required>
+                <label for="large">Large=KSH. 800</label>
+                <br>
+                <button onclick="orderPizza()">Pick size</button> <br> 
+              </form>
