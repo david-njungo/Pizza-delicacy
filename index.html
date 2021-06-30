@@ -138,3 +138,16 @@
                 <br>
                 <button onclick="orderPizza()">Pick size</button> <br> 
               </form>
+              <h1>Choose crust:</h1>
+              <form onsubmit="event.preventDefault();orderPizza()">
+                <input type="radio" id="crispy" name="crust" value="" required>
+                <label for="crispy">Crispy=KSH 100</label>
+                <br>
+                <input type="radio" id="stuffed" name="crust" value="" required>
+                <label for="stuffed">Stuffed=KSH 150</label>
+                <br>
+                <input type="radio" id="gluttenfree" name="crust" value="" required>
+                <label for="gluttenfree">Glatten-free=KSH 120</label>
+                <button onclick="orderPizza()">Submit</button> <br> 
+              </form>
+            </div>
