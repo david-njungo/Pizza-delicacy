@@ -2,33 +2,51 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Akan name</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="../index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan name</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../index.css">
 </head>
+
 <body>
     <div class="row" id="home">
         <div class="col-2 align-items-start" id="nav">
-          <nav class="nav flex-column">
-            <a class="nav-link " href="#home">Home</a>
-            <a class="nav-link" href="#menu">Menu</a>
-            <a class="nav-link" href="#Order">Order</a>
-            <a class="nav-link" href="#contacts">Contacts</a>
-          </nav>
+            <nav class="nav flex-column">
+                <a class="nav-link " href="#home">Home</a>
+                <a class="nav-link" href="#menu">Menu</a>
+                <a class="nav-link" href="#Order">Order</a>
+                <a class="nav-link" href="#contacts">Contacts</a>
+            </nav>
         </div>
         <div class="col-9" id="about">
             <h2 id="delicacy">PISCY'S PIZZA</h2>
             <h5>The Best Place To Be With The Best Pizza</h5>
             <h2>P $ P</h2>
-          </div>
         </div>
-        <div id="menu">
-            <div class="row">
-              <div class="col-3" id="menubar">
+    </div>
+    <div id="menu">
+        <div class="row">
+            <div class="col-3" id="menubar">
                 <h1>Menu</h1>
                 <h4><a href="#Clasicpizza">Classic Pizzas</a></h4>
                 <h4><a href="#Deluxepizza">Deluxe Pizzas</a></h4>
+                <div id="Order">
+                    <button onclick="orderPizza()">
+                        <h1> Order Here</h1>
+                    </button>
+                    <h3>Total Charge</h3>
+                    <p id="total"></p>
+                    <form onsubmit="event.preventDefault();getData()">
+                        <h1 id="choosedelivery">Choose delivery</h1>
+                        <input type="checkbox" id="delivery" name="choosedelivery" value="" required>
+                        <label for="delivery">Delivery</label>
+                        <br>
+                        <input type="checkbox" id="pickup" name="choosedelivery" value="">
+                        <label for="pickup">Pickup</label><br>
+                        <button onclick="getData()">Submit</button> <br>
+                    </form>
+                </div>
+            </div>
