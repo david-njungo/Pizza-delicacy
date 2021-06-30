@@ -6,12 +6,12 @@ The project is about an online delivery website where users are able to purchase
 ## Setup/Installation Requirements
 * Clone the repo 
 ```
-$ git clone https://github.com/davidnjungo-lab/Delani-studio.git 
+$ git clone https://github.com/davidnjungo-lab/Pizza-delicacy.git
 ```
 * Open  the project on VS Code/ your editor of choice
 * Open the project on live server
 ## Live Demo
-open live demo on https://davidnjungo-lab.github.io/Delani-studio/
+open live demo on 
 ## Known Bugs
 No known bugs yet.
 ## Technologies Used
