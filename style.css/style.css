@@ -10,3 +10,14 @@
     background-color: orange;
     height:500px;
 }
+#about{
+    text-align: center;
+    color:white;
+   padding-top: 200px;
+    padding-left: 20%;
+}
+#delicacy{
+    color: orange;
+    font-size: 60px;
+    font-weight:900px;
+}
